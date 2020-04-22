@@ -1,0 +1,104 @@
+body{
+    background-color: bisque;
+}
+.blogger{
+    background-color: #fff;
+    width: 800px;
+}
+.blooger-info{
+    height: 65px;
+}
+.blogger-img{
+    margin: 1px;
+    float: left;
+}
+.blogger-username{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #00f;
+    float: left;
+}
+.blogger-infotype{
+    margin-top: 5px;
+}
+.blogger-title{
+    font-size: 20px;
+}
+.blogger-content{
+    width: 800px;
+}
+.partline{
+    float: left;
+    width: 600px;
+    border-bottom:#000000 2px dashed;
+}
+.replay{
+    float: right;
+    height: 25px;
+}
+.btn-replay{
+    float: left;
+}
+.replay a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.replay-post{
+    width: 800px;
+    background-color: #fff;
+    margin-top: 2px;
+    /* margin-bottom: 2px; */
+}
+/***********************************relay************************************************/
+.replay-post{
+    width: 800px;
+    background-color: #fff;
+    margin-top: 2px;
+}
+#replay-post-title{
+    font-size: 20px;
+    margin: 2px;
+}
+.replay-post-content{
+    float: left;
+    margin-top: 5px;
+    width: 800px;
+}
+.replay-post-info{
+    float: right;
+    width: 800px;
+}
+.replay-post-name{
+
+    margin-left: 10px;
+    font-size: 15px;
+    float: right;
+}
+.replay-post-time{
+    margin-left: 20px;
+    font-size: 15px;
+    float: right;
+}
+/**********************************工具*******************************************/
+/* 消除浮动 */
+.clearfix{
+    *zoom: 1;
+}
+.v-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

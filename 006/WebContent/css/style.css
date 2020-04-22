@@ -1,0 +1,300 @@
+html,body{
+background-color: rgba(238, 223, 223, 0.863);
+    margin: 0;
+    padding: 0;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+#header{
+    background-color: #fff;
+}
+/* *****************************  头部  ********************************** */
+#header-content{
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+}
+#logo{
+    float: left;
+    margin-right: 20px;
+}
+#searchbar{
+    float: left;
+}
+#searchtext{
+    background-image: url(../image/search.png);
+    width: 220px;
+    height: 25px;
+    padding-left: 25px;
+    border: none;
+}
+#login-link{
+    float: right;
+}
+/* *****************************   中间   ********************************* */
+#content{
+    width: 800px;
+    margin: 30px auto;
+}
+#content-left{
+    float: left;
+    /* background-color:rgb(170, 164, 164); */
+    width: 545px;
+}
+/********************************   导航  ************************************/
+#nav{
+    padding: 4px;
+    background-color: #fff;
+}
+#nav a{
+    text-decoration: none;
+    color: #000;
+}
+#nav .current-active{
+    background-color: #333344;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+#nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+#nav li{
+    float: left;
+    margin-right: 20px;
+}
+/********************************   post  ************************************/
+a{
+	text-decoration:none;
+}
+#posts{
+    height: 65px;
+    margin-top: 1px;
+    background-color: #fff;
+}
+.avator{
+    width: 65px;
+    height: 65px;
+    float: left;
+}
+.avator img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.avator-tooltip{
+    width: 200px;
+    height: 200px;
+} 
+#post-title{
+    float: left;
+    margin: 5px;
+}
+#post-title-text{
+    float: left;
+    width: 440px;
+    height: 18px;
+    margin: 3px;
+    overflow: hidden;
+}
+#post-info{
+    width: 470px;
+    height: 30px;
+}
+.post-info-text{
+    float: left;
+}
+.post-info-text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.post-info-text ul>li{
+    float: left;
+    margin-right: 2px;
+}
+.post-info-text ul>li>p{
+    margin: 2px;
+    color: #000;
+}
+.reply{
+    float: right;
+}
+.reply-count{
+    margin-right: 5px;
+    height: 18px;
+    color: #fff;
+    padding: 0 8px;
+    border-radius: 9px;
+    background-color: #aab0c6;
+}
+/********************************   post  ************************************/
+#content-right1{
+    margin-left: 10px;
+    width: 225px;
+    float: right;
+    /* position: relative; */
+}
+.right-header{
+    height: 25px;
+    margin-bottom: 1px;
+    background-color: #fff;
+}
+.right-header a{
+    text-decoration: none;
+    color: rgb(180, 172, 172);
+}
+#posts-right{
+
+    margin-bottom: 1px;
+    height: 32px;
+    background-color: #fff;
+}
+#avator-right{
+    width: 35px;
+    float: left;
+    height: 32px;
+}
+#avator-right img{
+    width: 29px;
+    height: 29px;
+    margin: 2px;
+}
+#post-title-right{
+    float: right;
+    margin: 3px;
+    
+}
+#post-title-text-right{
+    width: 180px;
+    height: 18px;
+    float: right;
+    overflow: hidden;
+}
+#post-title-text-right a{
+    text-decoration: none;
+    color:#000;
+}
+.content-right2{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 225px;
+    float: right;
+    background-color: rgb(185, 168, 168);
+}
+.right2-title{
+    height: 25px;
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+.right2-title a{
+    text-decoration: none;
+    color: rgb(180, 172, 172);
+}
+.right2-content{
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+.static{
+    text-align: right;
+    list-style: none;
+    margin-bottom: 5px;
+    color: rgb(156, 146, 146);
+    margin-left: 5px;
+    float: left;
+    width: 80px;
+}
+.static-count{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    margin-left: 5px;
+    float: left;
+}
+.scoreboard{
+    background-color: #fff;
+}
+.fortune{
+    margin: 2px;
+
+}
+.consumption{
+margin: 2px;
+}
+
+/* *****************************     底部     ********************************** */
+#footer{
+    background-color: #fff;
+}
+#footer-content{
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 120px;
+    position: relative;
+    /* overflow: hidden; */
+}
+#footer-links li{
+    margin-top: 10px;
+    margin-right: 20px;
+    float: left;
+}
+#footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer-links{
+    position: absolute;
+    top: 10%;
+}
+#update-date{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+}
+/***************************************************************************/
+/* 消除浮动 */
+.clearfix{
+    *zoom: 1;
+}
+.v-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.logintext-center{
+    text-align: center;
+}
+.logintext-right{
+    text-align: right;
+}
+.tps{
+    text-align: right;
+    color: #f00;
+}
+#btn-publish{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #337FE5;
+}
+.tipstext{
+    font-size: 25px;
+}
